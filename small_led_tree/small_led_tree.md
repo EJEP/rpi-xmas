@@ -22,8 +22,18 @@ The pin settings for each LED are:
 
 There are six pins, four are used. 
 
-    A  D  X
     X  C  B
+    A  D  X
+    
+*Physical pin numbers* With a 40 pin header:
+    
+    39 37 35
+    40 38 36
+    
+*Physical pin numbers* with a 26 pin header:
+
+    25 23 21
+    26 24 22
     
 Mounts on the pins furthest from the corner - physical pins 21-26 on the model A or B and 35-40 on models with 40 pins
 
