@@ -36,7 +36,7 @@ The example code will be in `small_rgb_tree/`.
 
 Mountimg is like this:
 
-![Small RGB Xmas tree on Raspberry Pi](./images/small_rgb_xmas_tree.jpg)
+![Small RGB Xmas tree on Raspberry Pi](./images/small_rgb_tree.jpg)
 
 # 3D Xmas tree
 
