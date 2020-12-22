@@ -12,6 +12,18 @@ The LEDS are charlieplexed.
 
 The example code will live in `small_led_tree/`
 
+Mountimg is like this:
+
+![Small LED Xmas tree on Raspberry Pi](./images/small_led_xmas_tree.jpg)
+
+# SMD Xmas Tree
+
+Also from [pocketmoneytronics.co.uk](http://www.pocketmoneytronics.co.uk), product page is at `http://www.pocketmoneytronics.co.uk/?page_id=540`. The code for a Raspberry Pi is in `xmas_smd.py`. There is also code for Arduino and Pyboard.
+
+The example code will be in `smd_tree/`
+
+![SMD Xmas tree on Raspberry Pi](./images/smd_tree.jpg)
+
 # GPIO RGB Xmas Tree
 
 Also from [pocketmoneytronics.co.uk](www.pocketmoneytronics.co.uk). Same concept as the previous one but with RGB LEDs. The page is at `http://www.pocketmoneytronics.co.uk/?page_id=423`. Some instructions are also available from [raspberrypi-spy.co.uk](https://www.raspberrypi-spy.co.uk/2016/12/rgb-led-christmas-tree-by-pocketmoneytronics/).
@@ -20,11 +32,7 @@ The board uses the `rpi_ws281x` library to communicate with the LEDs. It behaves
 
 The example code will be in `small_rgb_tree/`.
 
-# SMD Xmas Tree
-
-Also from [pocketmoneytronics.co.uk](http://www.pocketmoneytronics.co.uk), product page is at `http://www.pocketmoneytronics.co.uk/?page_id=540`. The code for a Raspberry Pi is in `xmas_smd.py`. There is also code for Arduino and Pyboard.
-
-The example code will be in `smd_tree/`
+![Small RGB Xmas tree on Raspberry Pi](./images/small_rgb_xmas_tree.jpg)
 
 # 3D Xmas tree
 
@@ -37,3 +45,7 @@ Example code will be in `3d_tree/`
 From [The Pi Hut](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi). Comes mostly assembled. Code from ThePiHut is [available on GitHub](https://github.com/ThePiHut/rgbxmastree)
 
 Example code will be in `3d_rgb_tree/`
+
+Mounting is like this:
+
+![3D RGB Xmas tree on Raspberry Pi](./images/3d_rgb_xmas_tree.jpg)
