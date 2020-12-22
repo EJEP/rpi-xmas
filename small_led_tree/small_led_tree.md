@@ -9,7 +9,7 @@ Charlieplexing takes advantage of pins on things like the Raspberry Pi having th
 The pin settings for each LED are:
 
 | A | B | C | D | LED |
------------------------
+|---|---|---|---|-----|
 | H | L | U | U | 5   |
 | L | H | U | U | 6   |
 | L | U | H | U | 0   |
