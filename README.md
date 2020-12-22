@@ -22,6 +22,8 @@ Also from [pocketmoneytronics.co.uk](http://www.pocketmoneytronics.co.uk), produ
 
 The example code will be in `smd_tree/`
 
+Mountimg is like this:
+
 ![SMD Xmas tree on Raspberry Pi](./images/smd_tree.jpg)
 
 # GPIO RGB Xmas Tree
@@ -32,6 +34,8 @@ The board uses the `rpi_ws281x` library to communicate with the LEDs. It behaves
 
 The example code will be in `small_rgb_tree/`.
 
+Mountimg is like this:
+
 ![Small RGB Xmas tree on Raspberry Pi](./images/small_rgb_xmas_tree.jpg)
 
 # 3D Xmas tree
@@ -39,6 +43,10 @@ The example code will be in `small_rgb_tree/`.
 From [The Pi Hut](https://thepihut.com/products/3d-xmas-tree-for-raspberry-pi). Soldering kit. Code is on the linked product page.
 
 Example code will be in `3d_tree/`
+
+Mountimg is like this:
+
+![3D Xmas tree on Raspberry Pi](./images/3d_xmas_tree.jpg)
 
 # 3D RGB Xmas tree
 
