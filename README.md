@@ -1,6 +1,6 @@
 # RPi Xmas
 
-This will document the various christmas trees I own which mount on Raspberry Pis, i.e. how to mount them along with code to use them. May also contain code to run them on various microcontrollers.
+This will document the various christmas trees I own which mount on Raspberry Pis, i.e. how to mount them along with code to use them. May also contain code to run them on various microcontrollers. More detailed documentation for each board is in the respective subdirectories.
 
 # GPIO Xmas Tree
 
