@@ -7,6 +7,9 @@ Below is a schematic diagram of the circuit for the charlieplexed LEDs. With fou
 Charlieplexing takes advantage of pins on things like the Raspberry Pi having three possible states: output high, output low and input. The input state effectively disconnects the pin from the rest of the circuit.
 
 The pin settings for each LED are:
+H: High
+L: Low
+U: Unconnected (input)
 
 | A | B | C | D | LED |
 |---|---|---|---|-----|
