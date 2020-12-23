@@ -15,12 +15,15 @@ class SmallLedTree:
                                  'led_1': {'anode': 'C', 'cathode': 'D'},
                                  'led_2': {'anode': 'D', 'cathode': 'C'},
                                  'led_3': {'anode': 'D', 'cathode': 'B'},
-                                 'led_4': {'anode': 'B', 'cathode': 'L'},
+                                 'led_4': {'anode': 'B', 'cathode': 'D'},
                                  'led_5': {'anode': 'A', 'cathode': 'B'},
                                  'led_6': {'anode': 'B', 'cathode': 'A'},
                                  }
 
         GPIO.setmode(GPIO.BCM)
+
+    def __del__(self):
+        GPIO.cleanup()
 
     def single_led_on(self, led_number):
         GPIO.setup(self.pins['A'], GPIO.IN)
@@ -34,15 +37,16 @@ class SmallLedTree:
         GPIO.setup(self.pins[self.led_node_mapping[led_number]['cathode']],
                    GPIO.OUT)
 
-        GPIO.setup(self.pins[self.led_node_mapping[led_number]['anode']],
+        GPIO.output(self.pins[self.led_node_mapping[led_number]['anode']],
                    GPIO.HIGH)
-        GPIO.setup(self.pins[self.led_node_mapping[led_number]['cathode']],
+        GPIO.output(self.pins[self.led_node_mapping[led_number]['cathode']],
                    GPIO.LOW)
 
     def leds_on(self, leds, wait_time):
-        for _ in range(wait_time / self.illumination_time):
+        for _ in range(int(wait_time / self.illumination_time)):
             for led in leds:
                 self.single_led_on(led)
+                time.sleep(self.illumination_time)
 
     def all_leds_off(self):
         GPIO.setup(self.pins['A'], GPIO.IN)
