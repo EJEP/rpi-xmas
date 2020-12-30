@@ -30,7 +30,7 @@ Mountimg is like this:
 
 Also from [pocketmoneytronics.co.uk](www.pocketmoneytronics.co.uk). Same concept as the previous one but with RGB LEDs. The page is at `http://www.pocketmoneytronics.co.uk/?page_id=423`. Some instructions are also available from [raspberrypi-spy.co.uk](https://www.raspberrypi-spy.co.uk/2016/12/rgb-led-christmas-tree-by-pocketmoneytronics/).
 
-The board uses the `rpi_ws281x` library to communicate with the LEDs. It behaves like Neopixels which I think use SPI?
+The board requires the `rpi_ws281x` library to communicate with the LEDs. It behaves like Neopixels which use the same protocol.
 
 The example code will be in `small_rgb_tree/`.
 
