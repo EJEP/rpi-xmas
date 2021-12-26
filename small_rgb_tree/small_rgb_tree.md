@@ -1,5 +1,7 @@
 # Circuit
 
+From the kickstarter page the tree uses PL9823 or APA106 LEDs. These use the same protocal as ws281x LEDS.
+
 ws281x LEDs use three pins, +5V, ground and data. The tree takes 12 pins on the Pi, but only uses four of them (the two 5V pins are both used.
 
 | Physical pin | Use     |
@@ -8,6 +10,10 @@ ws281x LEDs use three pins, +5V, ground and data. The tree takes 12 pins on the 
 | 4            | +5V     |
 | 6            | Ground  |
 | 12           | GPIO 18 |
+
+TODO: Circuit diagram.
+
+Looks like the diode is to drop the power down a bit from 5V so that the LEDs can communicate with the pi over 3.3V logic. Need to see if this works with Arduino.
 
 # How to use
 ## Raspberry Pi
